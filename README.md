@@ -11,6 +11,7 @@
 ## Команды
 
 pwd - print currient directory;
+
 cd - change directory;  .. - go to up level: example (cd ..); . - go to currient directory: (cd .);  ls - print directoru stuff iles and othe directories); ls -a - print all (with invizible files and directories);  touch - create new file;  mkdir - create new directory; mkdir -p - create struct of directories: (mkdir -p first/second/third); cp - copy files: (target target place); mv - move files (taget target place); cat print file (only text); rn - remove file; rmdir - remove directory (only empry directory);  rm -r - remove palce with stuff;  more information [Яндекс практикум](https://practicum.yandex.ru)
 
 ## 3. шаг
