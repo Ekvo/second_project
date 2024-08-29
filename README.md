@@ -22,7 +22,9 @@ ls - print directoru stuff iles and othe directories);
 
 ls -a - print all (with invizible files and directories);
 
-touch - create new file;  mkdir - create new directory;
+touch - create new file;
+
+mkdir - create new directory;
 
 mkdir -p - create struct of directories: (mkdir -p first/second/third);
 
@@ -176,8 +178,9 @@ cat ~/.ssh/id_ed25519.pub
 В поле Key скопируйте ваш ключ из буфера обмена.
 
 Нажмите на кнопку Add SSH key (англ. «добавить SSH-ключ»).  Проверьте правильность ключа с помощью следующей команды.
-```
-bash  ssh -T git@github.com
+
+```bash
+ssh -T git@github.com
 ```
 
 Если это первый раз, когда вы используете Git, чтобы поделиться проектом на GitHub, появится похожее предупреждение.
@@ -226,6 +229,7 @@ origin git@github.com:%ИМЯ_АККАУНТА%/%ИМЯ-ПРОЕКТА%.git (pus
 ``bash
 git push -u origin main
 ```
+
 Если команда приведёт к ошибке, попробуйте - аменить main на _master_. 
 
 Появится такой экран.
